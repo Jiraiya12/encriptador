@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es-419">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+        <title> 
+        
+            Encriptadeitor 
+
+        </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">        
+    <link rel="icon" type="image/png" href="./imagenes/Encriptador.png">
+    
+    <link rel="stylesheet" href="./archivos/index.css">
+    <link rel="stylesheet" href="./archivos/cuerpo.css">
+    <link rel="stylesheet" href="./archivos/cabeza.css"> 
+    <link rel="stylesheet" href="./archivos/primercontenedor.css">    
+    <link rel="stylesheet" href="./archivos/contenedorbotones.css">
+   
+     
+</head>
+
+<body>
+
+    <header>
+
+        <img src="./imagenes/titulo3.png" alt="logo de Alura" class="encriptadeitor">
+      
+    </header>
+
+    <main>
+
+        <div class="primer-contenedor">           
+            <textarea id="texto" name="texto" placeholder="Ingresa el texto" maxlength="100" required rows="5" cols="50"></textarea>
+        </div>
+
+        <div class="contenedor-botones">
+                <input type="button" value="Encriptar" onclick="encriptarTexto()">
+                <input type="button" value="Desencriptar" onclick="desencriptarTexto()">                
+                <script src="./archivos/encriptarTexto.js"></script>
+                <script src="./archivos/desencriptarTexto.js"></script>
+                
+        </div>
+        
+
+        
+        <div class="segundo-contenedor imagen-fondo">
+            <div class="texto-copiar">
+              
+                <button id="boton-copiar" class="mi-boton" onclick="copiarTexto()">Copiar</button>
+              <script src="C:\Users\GABY SOBRON\Desktop\Raul\Terminados\archivos\copiarTexto.js"></script>
+            </div>
+        </div>
+
+
+        <div class="resultado-container">
+            <p id="resultado"></p>
+        </div>
+
+        <footer>
+           <div class="nombre"> 
+             <p>Jose Raul Huesca Sobron.</p>
+           </div>
+            
+           <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100006876526396" target="_blank">
+              <img src="C:\Users\GABY SOBRON\Desktop\Raul\Terminados\svg\facebook.svg" alt="icono" class="facebook">
+            </a>
+            <a href="https://www.instagram.com/tu_cuenta_de_instagram" target="_blank">
+              <img src="C:\Users\GABY SOBRON\Desktop\Raul\Terminados\svg\instagram.svg" alt="icono" class="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/tu_perfil_de_LinkedIn" target="_blank">
+              <img src="C:\Users\GABY SOBRON\Desktop\Raul\Terminados\svg\link.png" alt="icono" class="linkendink">
+            </a>
+          </div>
+        </footer>
+    </main>
+
+
+</body>
+</html>
+
+
+
+
+
+

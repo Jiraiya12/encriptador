@@ -1,0 +1,22 @@
+.contenedor-botones{
+    position: absolute;
+    bottom: 253px;
+    left: 179px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .contenedor-botones input[type=button] {
+    background-color: #d42323;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;    
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: fantasy;
+  }
+  
+  .contenedor-botones input[type=button]:hover {
+    background-color: #2980b9;
+  }

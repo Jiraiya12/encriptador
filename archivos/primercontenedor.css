@@ -1,0 +1,17 @@
+.primer-contenedor {   
+    padding: 10px;
+    
+}
+
+.primer-contenedor textarea {    
+    height: 100px;   
+    width: 400px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: black;
+    color: white;
+}
+

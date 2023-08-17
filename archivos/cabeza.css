@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+  }
+
+  .encriptadeitor {    
+    width: 1000px;
+    height: auto;
+    max-width: 100%;
+  }

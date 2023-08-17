@@ -1,0 +1,143 @@
+
+
+  main{
+    display: flex;
+    padding: 59px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  } 
+
+
+
+ .segundo-contenedor{
+    margin-right: -150px;
+    margin-top: 200px;
+    position: absolute;
+    right: 400px;
+    bottom: 250px;
+  }
+
+  .texto-copiar {
+    margin-bottom: 20px;
+    
+  }
+
+
+  .mi-boton {
+    background-color: #d42323;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;    
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: fantasy;
+    position: absolute;
+    right: 130px;
+    bottom: 65px;
+  }
+  
+  .mi-boton:hover {
+    background-color: #2980b9;
+  }
+
+
+
+
+
+  .resultado-container {
+    padding: 10px;
+    position: absolute;
+    left: 1000px;
+    color: aliceblue;
+    background: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    top: 150px;
+
+  }
+
+
+
+
+
+
+ textarea {
+        width: 400px;
+        height: 200px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+
+
+
+
+
+
+  
+    footer {
+      background-color:#ffffff;
+      color: black;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-size: 16px;
+      
+    }
+
+
+
+
+
+
+    .redes {
+      float: right;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .redes li {
+      display: inline-block;
+    }
+    
+    .redes a {
+      display: inline-block;
+      padding: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+    .redes img {
+      width: 30px;
+      height: 30px;
+    }
+    
+    .nombre {
+      float: left;
+      position: absolute;
+      left: 16px;
+      top: 15px;
+      font-family: monospace;
+      align-items: center;
+  }
+    
